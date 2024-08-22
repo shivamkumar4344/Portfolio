@@ -1,0 +1,27 @@
+button{
+    transition: 0.9ms ease;
+    scroll-behavior: smooth;
+}
+
+button:hover{
+    transform: translateY(-7px);
+    cursor: pointer;
+    
+}
+
+.navbar-hover{
+    transition: ease all 0.3s;
+}
+
+.navbar-hover:hover{
+    color: gray;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+
+.email-hover:hover{
+    color: gray;
+    cursor: pointer;
+    transform: translateY(-5px);
+}

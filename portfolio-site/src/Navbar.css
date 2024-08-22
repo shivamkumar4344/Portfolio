@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Moderustic:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbox-content{
+    width:500px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.email-navbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.email-navbox:hover{
+    color: gray;
+    cursor: pointer;
+}

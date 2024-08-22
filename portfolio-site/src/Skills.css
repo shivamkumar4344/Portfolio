@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Moderustic:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.skills-heading {
+    width: 500px;
+    text-align: center;
+    margin-left: 30.5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 0px 25px;
+}
+
+.laptop-icon {
+    height: 90px;
+    width: 90px;
+    padding: 2px 2px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 68);
+}
+
+.skills-all{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-list{
+    line-height: 40px;
+}
+
+.skills-first{
+    border-right: 1px solid gray;
+    height: 450px;
+    width: 300px;
+}
+
+.skills-one{
+    font-family: "Roboto","sans-serif";
+    color: gray;
+}
+
+.tools-icon{
+    height: 90px;
+    width: 90px;
+    padding: 4px 4px;
+    border-radius: 10px;
+    background-color: violet
+}
+
+.tools-list{
+    line-height: 40px;
+}
+
+.skills-two{
+    font-family: "Roboto","sans-serif";
+    color: gray;
+}
+
+.skills-tools{
+    border-right: 1px solid gray;
+    height: 450px;
+    width: 300px;
+}
+
+
+.language-icon{
+    height: 100px;
+    width: 100px;
+    padding: 2px 2px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.skills-three{
+    font-family: "Roboto","sans-serif";
+    color: gray;
+}
+
+.languages-list{
+    line-height: 40px;
+}
