@@ -6,7 +6,6 @@ button{
 button:hover{
     transform: translateY(-7px);
     cursor: pointer;
-    
 }
 
 .navbar-hover{
