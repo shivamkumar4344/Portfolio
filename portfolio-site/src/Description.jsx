@@ -1,5 +1,5 @@
 import "./Description.css";
-import DP from "./assets/ProfileDP.png";
+import DP from "./assets/profileDP.png";
 import Button from '@mui/material/Button';
 import React from "react";
 import Typewriter from "typewriter-effect";
