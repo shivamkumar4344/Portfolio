@@ -1,8 +1,8 @@
 import "./Projects.css";
 import news_icon from "./assets/news-icon.png";
 import chat_icon from "./assets/chat-icon.png";
-import property_icon from "./assets/property-icon.png";
-import fitness_icon from "./assets/fitness-icon.png";
+import ddos_icon from "./assets/ddos-icon.png";
+import notes_icon from './assets/notes-icon.png';
 
 
 export default function Projects(){
@@ -44,21 +44,21 @@ export default function Projects(){
             <div className="project-row1">
                 <div className="project-one-one">
                 <div className="project-one">
-                    <img src={property_icon} alt="news-icon" className="property-icon" />
-                    <h3 style={{fontFamily:"Roboto",fontSize:"30px"}}>PROPERTY WEBSITE</h3>
+                    <img src={ddos_icon} alt="ddos-icon" className="property-icon" />
+                    <h3 style={{fontFamily:"Roboto",fontSize:"30px"}}>CLOUD BOUNCER</h3>
                 </div>
                 <div className="project-one-desc">
-                    <p style={{fontFamily:"Roboto",fontSize:"18px",color:"gray"}}> Created with HTML, CSS & JAVASCRIPT. This responsive website is designed for selling and buying properties. It provides us a user-friendly platform for property dealing. <br />
-                    GitHub Link:- <a href="https://github.com/shivamkumar4344/data-piarets2_KOC27_CipherSchools" target="blank">Click Here to visit my GitHub Repo</a></p>
+                    <p style={{fontFamily:"Roboto",fontSize:"18px",color:"gray"}}> Created with Node Js, React JS,Python , MongoDB and Python.This is a DDOS protection tool that prevents any website from DOS and DDOS attacks. Created the backend that identify the malicious IPs and block them and prevent them from again attacking to the website. <br />
+                    GitHub Link:- <a href="https://github.com/CLOUD-BOUNCER-TOOL/DDOS" target="blank">Click Here to visit my GitHub Repo</a></p>
                 </div>
                 </div>
                 <div className="project-two-two">
                 <div className="project-two">
-                    <img src={fitness_icon} alt="news-icon" className="fitness-icon" />
-                    <h3 style={{fontFamily:"Roboto",fontSize:"30px"}}>FITNESS CALCULATOR</h3>
+                    <img src={notes_icon} alt="news-icon" className="fitness-icon" />
+                    <h3 style={{fontFamily:"Roboto",fontSize:"30px"}}>NOTES APP</h3>
                 </div>
                 <div className="project-two-desc">
-                    <p style={{fontFamily:"Roboto",fontSize:"18px",color:"gray"}}>A fitness calculator implemented in C language can compute essential metrics such as Body Mass Index (BMI),V02, and target heart rate zones. By inputting variables like weight, height, age, gender, the calculator helps users monitor and optimize their fitness and health goals. <br />GitHub Link:- <a href="https://github.com/shivamkumar4344/FitnessCalculator" target="blank">Click Here to visit my GitHub Repo</a></p>
+                    <p style={{fontFamily:"Roboto",fontSize:"18px",color:"gray"}}>A Notes App using the MERN stack (MongoDB, Express, React, Node.js) allows users to create, edit, and delete notes. React handles the front-end, while Express and Node.js manage the back-end APIs, with MongoDB storing the data. It provides a seamless full-stack solution for managing personal or shared notes. <br />GitHub Link:- <a href="https://github.com/shivamkumar4344/Notes_App_MERN" target="blank">Click Here to visit my GitHub Repo</a></p>
                 </div>
                 </div>
 
